@@ -9,10 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Chosen Palette: Modern Professional (Background: #F8F7F4, Text: #3D4451, Primary: #4A90E2, Accent: #E8F0FE) -->
-    <!-- Application Structure Plan: A single-page dashboard resume. The structure is designed for quick, non-linear access by recruiters. It starts with a high-impact 'Summary' dashboard with key metrics visualized, followed by an interactive 'Experience' timeline, a categorized 'Skills' section using visual tags, and a concise 'Education' card. A sticky top navigation allows users to jump to any section instantly. This structure prioritizes immediate value and scannability over the linear format of the source document, which is better for a busy audience. -->
-    <!-- Visualization & Content Choices: 1. Key Metrics (from Summary & Experience): Goal=Inform/Impress -> Method=Large stat cards -> Interaction=Static -> Justification=Highlights most impressive achievements immediately. 2. Performance Comparison (Accuracy/Improvement %): Goal=Compare -> Viz=Horizontal Bar Chart -> Interaction=Tooltips on hover -> Justification=Visually compares performance across different roles effectively -> Library=Chart.js. 3. Skills: Goal=Organize -> Method=Categorized, styled tags -> Interaction=Static -> Justification=More visually engaging and scannable than a list. 4. Work History: Goal=Show Change -> Method=Vertical Timeline -> Interaction=Scroll navigation -> Justification=Intuitively represents chronological progression. -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -59,6 +55,7 @@
                 <a href="#experience" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Experience</a>
                 <a href="#skills" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Skills</a>
                 <a href="#education" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Education</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
             </nav>
             <div class="md:hidden">
                 <button id="menu-btn" class="text-gray-700 focus:outline-none">
@@ -71,6 +68,7 @@
             <a href="#experience" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Experience</a>
             <a href="#skills" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Skills</a>
             <a href="#education" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Education</a>
+            <a href="#contact" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Contact</a>
         </div>
     </header>
 
@@ -78,10 +76,10 @@
 
         <section id="summary" class="mb-20">
             <div class="text-center mb-12">
-                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Professional Summary</h2>
-                 <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
-                    This section provides a high-level overview of my professional profile, blending advanced data management with executive support. Here you'll find my core value proposition and key career achievements, quantified to demonstrate consistent impact on data accuracy and operational efficiency.
-                 </p>
+                   <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Professional Summary</h2>
+                   <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
+                     This section provides a high-level overview of my professional profile, blending advanced data management with executive support. Here you'll find my core value proposition and key career achievements, quantified to demonstrate consistent impact on data accuracy and operational efficiency.
+                   </p>
             </div>
             <div class="bg-white p-8 rounded-xl shadow-lg mb-12">
                 <blockquote class="text-center text-lg text-gray-700 italic border-l-4 border-blue-500 pl-6">
@@ -101,7 +99,7 @@
                     <div class="text-4xl font-bold text-blue-600 mb-2">30+</div>
                     <p class="text-gray-600">Discrepancies Resolved Weekly</p>
                 </div>
-                 <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                   <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
                     <div class="text-4xl font-bold text-blue-600 mb-2">92%</div>
                     <p class="text-gray-600">First-Contact Resolution Rate</p>
                 </div>
@@ -114,10 +112,10 @@
 
         <section id="experience" class="mb-20">
              <div class="text-center mb-12">
-                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Professional Experience</h2>
-                 <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
-                     My professional journey is detailed below in a chronological timeline. Each role highlights key responsibilities and, more importantly, quantifiable achievements that demonstrate my contributions to data integrity, process efficiency, and customer satisfaction.
-                 </p>
+                   <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Professional Experience</h2>
+                   <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
+                        My professional journey is detailed below in a chronological timeline. Each role highlights key responsibilities and, more importantly, quantifiable achievements that demonstrate my contributions to data integrity, process efficiency, and customer satisfaction.
+                   </p>
             </div>
             <div class="relative pl-8 border-l-2 border-gray-200">
             </div>
@@ -125,10 +123,10 @@
 
         <section class="mb-20">
             <div class="text-center mb-12">
-                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Performance Metrics Overview</h2>
-                 <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
-                    This chart visually compares key performance indicators (KPIs) from my recent roles, focusing on accuracy, efficiency improvements, and resolution rates. Hover over each bar to see the specific achievement and the context in which it was accomplished. This provides a quick, comparative view of my consistent performance.
-                 </p>
+                   <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Performance Metrics Overview</h2>
+                   <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
+                        This chart visually compares key performance indicators (KPIs) from my recent roles, focusing on accuracy, efficiency improvements, and resolution rates. Hover over each bar to see the specific achievement and the context in which it was accomplished. This provides a quick, comparative view of my consistent performance.
+                   </p>
             </div>
             <div class="bg-white p-4 sm:p-8 rounded-xl shadow-lg">
                 <div class="chart-container">
@@ -148,12 +146,12 @@
             </div>
         </section>
         
-        <section id="education" class="text-center">
+        <section id="education" class="mb-20 text-center">
             <div class="text-center mb-12">
-                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Education</h2>
-                 <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
-                     My formal education provided a strong foundation in analytical and structural thinking, which I apply to my data-centric roles.
-                 </p>
+                   <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Education</h2>
+                   <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
+                        My formal education provided a strong foundation in analytical and structural thinking, which I apply to my data-centric roles.
+                   </p>
             </div>
             <div class="bg-white inline-block p-8 rounded-xl shadow-lg">
                 <h3 class="text-xl font-semibold text-gray-800">University of Mindanao</h3>
@@ -162,16 +160,42 @@
                 <p class="text-sm font-medium text-blue-600 mt-4">Degree pursuit currently on hold.</p>
             </div>
         </section>
-
-    </main>
+        
+        <section id="contact" class="mb-20">
+            <div class="text-center mb-12">
+                   <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+                   <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed">
+                        I am currently open to new Data Steward, Operations, or Executive Support opportunities. Please feel free to connect through any of the channels below.
+                   </p>
+            </div>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
+                <div class="p-4 border-b sm:border-r sm:border-b-0 border-gray-200">
+                    <p class="text-sm font-medium text-gray-500">Email</p>
+                    <a id="contact-email" href="#" class="text-lg font-semibold text-blue-600 hover:underline transition-colors duration-300"></a>
+                </div>
+                <div class="p-4 border-b sm:border-b-0 border-gray-200">
+                    <p class="text-sm font-medium text-gray-500">Phone</p>
+                    <p id="contact-phone" class="text-lg font-semibold text-gray-800"></p>
+                </div>
+                <div class="p-4 border-b sm:border-r sm:border-b-0 border-gray-200">
+                    <p class="text-sm font-medium text-gray-500">Location</p>
+                    <p id="contact-location" class="text-lg font-semibold text-gray-800"></p>
+                </div>
+                <div class="p-4">
+                    <p class="text-sm font-medium text-gray-500">Professional Links</p>
+                    <a href="https://www.upwork.com/freelancers/~0194a1c3902511ce00" target="_blank" class="text-lg font-semibold text-blue-600 hover:underline transition-colors duration-300 block">Upwork Profile</a>
+                    <a id="contact-linkedin" href="#" target="_blank" class="text-sm text-gray-600 hover:underline transition-colors duration-300 block mt-1">LinkedIn Profile</a>
+                </div>
+            </div>
+        </section>
+        </main>
     
     <footer class="bg-white mt-20">
         <div class="container mx-auto px-6 py-6 text-center text-gray-600">
              <p id="footer-contact"></p>
              <p class="text-sm mt-2">
-                <a href="https://www.linkedin.com/in/john-mervin-mervin-1a983a291/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">LinkedIn Profile</a>
+                 &copy; 2025 John Mervin Blason. All Rights Reserved.
              </p>
-             <p class="text-sm mt-2">&copy; 2025 John Mervin Blason. All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -183,6 +207,7 @@
                     phone: "+639273178538",
                     email: "johnblason2@gmail.com",
                     linkedin: "https://www.linkedin.com/in/john-mervin-mervin-1a983a291/",
+                    upwork: "https://www.upwork.com/freelancers/~0194a1c3902511ce00", // Added Upwork link
                     location: "Davao City, Philippines" 
                 },
                 experience: [
@@ -263,9 +288,17 @@
             
             document.getElementById('candidate-name').textContent = candidateData.name;
             
+            // Populate New Contact Section
+            document.getElementById('contact-email').textContent = candidateData.contact.email;
+            document.getElementById('contact-email').href = `mailto:${candidateData.contact.email}`;
+            document.getElementById('contact-phone').textContent = candidateData.contact.phone;
+            document.getElementById('contact-location').textContent = candidateData.contact.location;
+            document.getElementById('contact-linkedin').href = candidateData.contact.linkedin;
+            document.getElementById('contact-linkedin').textContent = 'LinkedIn Profile'; // Set text content for consistency
+
             const footerContact = document.getElementById('footer-contact');
             footerContact.innerHTML = `
-                <a href="mailto:${candidateData.contact.email}" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">${candidateData.contact.email}</a> | 
+                <a href="mailto:${candidateData.contact.email}" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">${candidateData.contact.email}</a> | 
                 <span class="whitespace-nowrap">${candidateData.contact.phone}</span> |
                 <span class="whitespace-nowrap">${candidateData.contact.location}</span>
             `;
@@ -293,7 +326,7 @@
                         });
 
                         if (!mobileMenu.classList.contains('hidden')) {
-                             mobileMenu.classList.add('hidden');
+                            mobileMenu.classList.add('hidden');
                         }
                     }
                 });
@@ -359,7 +392,7 @@
                             'rgba(245, 166, 35, 1)',
                             'rgba(126, 211, 33, 1)',
                             'rgba(189, 16, 224, 1)',
-                             'rgba(248, 107, 107, 1)'
+                            'rgba(248, 107, 107, 1)'
                         ],
                         borderWidth: 1
                     }]
